@@ -6,5 +6,6 @@ def using_insert(array, element)
   array.insert(4, element)
 end
 
-def using_uniqe()
+def using_uniqe(array)
+  array.uniq
 end
